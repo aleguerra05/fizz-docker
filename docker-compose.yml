@@ -5,7 +5,7 @@ services:
     image: oracle:11g
     shm_size: 1g
     environment:
-      - ORACLE_PWD=Sysoracle11
+      - ORACLE_PWD=Oracle11g
     ports:
       - 1521:1521
     volumes:

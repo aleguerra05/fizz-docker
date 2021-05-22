@@ -13,5 +13,5 @@ Also fizzbuzz in oracle
 
 ```bash
 docker-compose up -d
-docker exec -it oracle-xe sh /scripts/fizzbuzz.sh
+docker exec -t oracle-xe sh /scripts/fizzbuzz.sh
 ```
